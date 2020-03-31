@@ -10,7 +10,7 @@ utils_ops.tf = tf.compat.v1
 tf.gfile = tf.io.gfile
 
 def load_model(model_name):
-  PATH_TO_LABELS = 'faster_rcnn_inception_v2_coco_2018_01_28/new_mscoco.pbtxt'
+  PATH_TO_LABELS = 'new_mscoco.pbtxt'
   category_index = label_map_util.create_category_index_from_labelmap(PATH_TO_LABELS, use_display_name=True)
   base_url = 'http://download.tensorflow.org/models/object_detection/'
   model_file = model_name + '.tar.gz'
