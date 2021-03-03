@@ -11,3 +11,7 @@ download the repository and run the main.py file.
 
 # Step 4:
 press q button to stop the execution of program.
+
+## For Any kind of query or help, Please contact me:
+Gmail : shaktiv@jecjabalpur.ac.in
+Linkedin : linkedin.com/in/shaktipro
